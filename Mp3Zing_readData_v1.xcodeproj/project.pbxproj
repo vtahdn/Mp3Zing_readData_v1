@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		29D3658A219AB4D200BE2D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D36589219AB4D200BE2D49 /* AppDelegate.swift */; };
-		29D3658C219AB4D200BE2D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3658B219AB4D200BE2D49 /* ViewController.swift */; };
-		29D3658F219AB4D200BE2D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D3658D219AB4D200BE2D49 /* Main.storyboard */; };
-		29D36591219AB4D300BE2D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D36590219AB4D300BE2D49 /* Assets.xcassets */; };
 		29D36594219AB4D300BE2D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D36592219AB4D300BE2D49 /* LaunchScreen.storyboard */; };
 		29D3659F219AB4D300BE2D49 /* Mp3Zing_readData_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3659E219AB4D300BE2D49 /* Mp3Zing_readData_v1Tests.swift */; };
 		29D365AA219AB4D300BE2D49 /* Mp3Zing_readData_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D365A9219AB4D300BE2D49 /* Mp3Zing_readData_v1UITests.swift */; };
+		29D365B9219AB63700BE2D49 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D365B8219AB63700BE2D49 /* libxml2.2.dylib */; };
+		29D365BD219AB6EE00BE2D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D365BC219AB6EE00BE2D49 /* Assets.xcassets */; };
+		29D365C1219AB6FD00BE2D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D365BE219AB6FD00BE2D49 /* Main.storyboard */; };
+		29D365C2219AB6FD00BE2D49 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D365BF219AB6FD00BE2D49 /* Song.swift */; };
+		29D365C3219AB6FD00BE2D49 /* TableViewOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D365C0219AB6FD00BE2D49 /* TableViewOnline.swift */; };
+		29D365CF219AB70600BE2D49 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365C5219AB70600BE2D49 /* thumbHightLight.png */; };
+		29D365D0219AB70600BE2D49 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D365C6219AB70600BE2D49 /* zing-mp3.jpg */; };
+		29D365D1219AB70600BE2D49 /* minVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365C7219AB70600BE2D49 /* minVolume.png */; };
+		29D365D2219AB70600BE2D49 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365C8219AB70600BE2D49 /* maxVolume.png */; };
+		29D365D3219AB70600BE2D49 /* Full-color-phone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29D365C9219AB70600BE2D49 /* Full-color-phone-wallpaper.jpg */; };
+		29D365D4219AB70600BE2D49 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365CA219AB70600BE2D49 /* pause.png */; };
+		29D365D5219AB70600BE2D49 /* iconOnline.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365CB219AB70600BE2D49 /* iconOnline.png */; };
+		29D365D6219AB70600BE2D49 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365CC219AB70600BE2D49 /* play.png */; };
+		29D365D7219AB70600BE2D49 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365CD219AB70600BE2D49 /* thumb.png */; };
+		29D365D8219AB70600BE2D49 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D365CE219AB70600BE2D49 /* duration.png */; };
+		29D365E2219AB73A00BE2D49 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D365DD219AB73A00BE2D49 /* XPathQuery.m */; };
+		29D365E3219AB73A00BE2D49 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D365DF219AB73A00BE2D49 /* TFHppleElement.m */; };
+		29D365E4219AB73A00BE2D49 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D365E0219AB73A00BE2D49 /* TFHpple.m */; };
+		29D365E6219ABA6C00BE2D49 /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D365E5219ABA6C00BE2D49 /* LocalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +52,6 @@
 /* Begin PBXFileReference section */
 		29D36586219AB4D200BE2D49 /* Mp3Zing_readData_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mp3Zing_readData_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D36589219AB4D200BE2D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29D3658B219AB4D200BE2D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29D3658E219AB4D200BE2D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29D36590219AB4D300BE2D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D36593219AB4D300BE2D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29D36595219AB4D300BE2D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29D3659A219AB4D300BE2D49 /* Mp3Zing_readData_v1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3Zing_readData_v1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +60,30 @@
 		29D365A5219AB4D300BE2D49 /* Mp3Zing_readData_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3Zing_readData_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D365A9219AB4D300BE2D49 /* Mp3Zing_readData_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3Zing_readData_v1UITests.swift; sourceTree = "<group>"; };
 		29D365AB219AB4D300BE2D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D365B8219AB63700BE2D49 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		29D365BA219AB63E00BE2D49 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libxml2.2.dylib; sourceTree = "<group>"; };
+		29D365BC219AB6EE00BE2D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29D365BE219AB6FD00BE2D49 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29D365BF219AB6FD00BE2D49 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		29D365C0219AB6FD00BE2D49 /* TableViewOnline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewOnline.swift; sourceTree = "<group>"; };
+		29D365C5219AB70600BE2D49 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		29D365C6219AB70600BE2D49 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		29D365C7219AB70600BE2D49 /* minVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minVolume.png; sourceTree = "<group>"; };
+		29D365C8219AB70600BE2D49 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		29D365C9219AB70600BE2D49 /* Full-color-phone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Full-color-phone-wallpaper.jpg"; sourceTree = "<group>"; };
+		29D365CA219AB70600BE2D49 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		29D365CB219AB70600BE2D49 /* iconOnline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconOnline.png; sourceTree = "<group>"; };
+		29D365CC219AB70600BE2D49 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		29D365CD219AB70600BE2D49 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		29D365CE219AB70600BE2D49 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		29D365DA219AB73900BE2D49 /* Mp3Zing_readData_v1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mp3Zing_readData_v1-Bridging-Header.h"; sourceTree = "<group>"; };
+		29D365DB219AB73A00BE2D49 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		29D365DC219AB73A00BE2D49 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		29D365DD219AB73A00BE2D49 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		29D365DF219AB73A00BE2D49 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		29D365E0219AB73A00BE2D49 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		29D365E1219AB73A00BE2D49 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		29D365E5219ABA6C00BE2D49 /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D365B9219AB63700BE2D49 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +115,12 @@
 		29D3657D219AB4D200BE2D49 = {
 			isa = PBXGroup;
 			children = (
+				29D365BA219AB63E00BE2D49 /* libxml2.2.dylib */,
 				29D36588219AB4D200BE2D49 /* Mp3Zing_readData_v1 */,
 				29D3659D219AB4D300BE2D49 /* Mp3Zing_readData_v1Tests */,
 				29D365A8219AB4D300BE2D49 /* Mp3Zing_readData_v1UITests */,
 				29D36587219AB4D200BE2D49 /* Products */,
+				29D365B7219AB63700BE2D49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +137,15 @@
 		29D36588219AB4D200BE2D49 /* Mp3Zing_readData_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				29D365D9219AB70D00BE2D49 /* Hpple */,
+				29D365C4219AB70600BE2D49 /* Resource */,
 				29D36589219AB4D200BE2D49 /* AppDelegate.swift */,
-				29D3658B219AB4D200BE2D49 /* ViewController.swift */,
-				29D3658D219AB4D200BE2D49 /* Main.storyboard */,
-				29D36590219AB4D300BE2D49 /* Assets.xcassets */,
+				29D365BF219AB6FD00BE2D49 /* Song.swift */,
+				29D365C0219AB6FD00BE2D49 /* TableViewOnline.swift */,
+				29D365E5219ABA6C00BE2D49 /* LocalViewController.swift */,
 				29D36592219AB4D300BE2D49 /* LaunchScreen.storyboard */,
+				29D365BE219AB6FD00BE2D49 /* Main.storyboard */,
+				29D365BC219AB6EE00BE2D49 /* Assets.xcassets */,
 				29D36595219AB4D300BE2D49 /* Info.plist */,
 			);
 			path = Mp3Zing_readData_v1;
@@ -123,6 +167,45 @@
 				29D365AB219AB4D300BE2D49 /* Info.plist */,
 			);
 			path = Mp3Zing_readData_v1UITests;
+			sourceTree = "<group>";
+		};
+		29D365B7219AB63700BE2D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D365B8219AB63700BE2D49 /* libxml2.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29D365C4219AB70600BE2D49 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				29D365C5219AB70600BE2D49 /* thumbHightLight.png */,
+				29D365C6219AB70600BE2D49 /* zing-mp3.jpg */,
+				29D365C7219AB70600BE2D49 /* minVolume.png */,
+				29D365C8219AB70600BE2D49 /* maxVolume.png */,
+				29D365C9219AB70600BE2D49 /* Full-color-phone-wallpaper.jpg */,
+				29D365CA219AB70600BE2D49 /* pause.png */,
+				29D365CB219AB70600BE2D49 /* iconOnline.png */,
+				29D365CC219AB70600BE2D49 /* play.png */,
+				29D365CD219AB70600BE2D49 /* thumb.png */,
+				29D365CE219AB70600BE2D49 /* duration.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		29D365D9219AB70D00BE2D49 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				29D365E1219AB73A00BE2D49 /* TFHpple.h */,
+				29D365E0219AB73A00BE2D49 /* TFHpple.m */,
+				29D365DB219AB73A00BE2D49 /* TFHppleElement.h */,
+				29D365DF219AB73A00BE2D49 /* TFHppleElement.m */,
+				29D365DC219AB73A00BE2D49 /* XPathQuery.h */,
+				29D365DD219AB73A00BE2D49 /* XPathQuery.m */,
+				29D365DA219AB73900BE2D49 /* Mp3Zing_readData_v1-Bridging-Header.h */,
+			);
+			path = Hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +276,7 @@
 				TargetAttributes = {
 					29D36585219AB4D200BE2D49 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					29D36599219AB4D300BE2D49 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +313,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D365D3219AB70600BE2D49 /* Full-color-phone-wallpaper.jpg in Resources */,
+				29D365D1219AB70600BE2D49 /* minVolume.png in Resources */,
+				29D365C1219AB6FD00BE2D49 /* Main.storyboard in Resources */,
+				29D365D0219AB70600BE2D49 /* zing-mp3.jpg in Resources */,
+				29D365BD219AB6EE00BE2D49 /* Assets.xcassets in Resources */,
+				29D365D4219AB70600BE2D49 /* pause.png in Resources */,
+				29D365D2219AB70600BE2D49 /* maxVolume.png in Resources */,
+				29D365D6219AB70600BE2D49 /* play.png in Resources */,
+				29D365D7219AB70600BE2D49 /* thumb.png in Resources */,
+				29D365D8219AB70600BE2D49 /* duration.png in Resources */,
+				29D365CF219AB70600BE2D49 /* thumbHightLight.png in Resources */,
 				29D36594219AB4D300BE2D49 /* LaunchScreen.storyboard in Resources */,
-				29D36591219AB4D300BE2D49 /* Assets.xcassets in Resources */,
-				29D3658F219AB4D200BE2D49 /* Main.storyboard in Resources */,
+				29D365D5219AB70600BE2D49 /* iconOnline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D3658C219AB4D200BE2D49 /* ViewController.swift in Sources */,
+				29D365C2219AB6FD00BE2D49 /* Song.swift in Sources */,
+				29D365E4219AB73A00BE2D49 /* TFHpple.m in Sources */,
+				29D365C3219AB6FD00BE2D49 /* TableViewOnline.swift in Sources */,
+				29D365E2219AB73A00BE2D49 /* XPathQuery.m in Sources */,
+				29D365E6219ABA6C00BE2D49 /* LocalViewController.swift in Sources */,
 				29D3658A219AB4D200BE2D49 /* AppDelegate.swift in Sources */,
+				29D365E3219AB73A00BE2D49 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29D3658D219AB4D200BE2D49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D3658E219AB4D200BE2D49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29D36592219AB4D300BE2D49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,15 +523,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
+				HEADER_SEARCH_PATHS = "$(sdkroot)/usr/include/libxml2";
 				INFOPLIST_FILE = Mp3Zing_readData_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Mp3Zing-readData-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mp3Zing_readData_v1/Hpple/Mp3Zing_readData_v1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,15 +549,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
+				HEADER_SEARCH_PATHS = "$(sdkroot)/usr/include/libxml2";
 				INFOPLIST_FILE = Mp3Zing_readData_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Mp3Zing-readData-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mp3Zing_readData_v1/Hpple/Mp3Zing_readData_v1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
