@@ -8,14 +8,17 @@
 
 import Foundation
 import UIKit
-struct Song {
+class Song {
+    var id = ""
     var title = ""
     var artist = ""
-    var thumbnail: UIImage
+    var thumbnail = UIImage()
     var sourceOnline = ""
     var sourceLocal = ""
     var localThumbnail = ""
-    init(title: String, artist: String, thumbnail: String, source: String) {
+    init(){}
+    init(id: String, title: String, artist: String, thumbnail: String, source: String) {
+        self.id = id
         self.title = title
         self.artist = artist
         let dataImage = try? Data(contentsOf: URL(string: thumbnail)!)
